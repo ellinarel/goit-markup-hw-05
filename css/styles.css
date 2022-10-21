@@ -300,8 +300,11 @@ main .container{
     border-radius: 50%;
     background-color: var(--background-color);
     cursor: pointer;
-    fill: var(--logocolor);
+
   
+}
+.closebtn{
+    fill: var(--logocolor);
 }
 .container {
     width: 1200px;
