@@ -394,7 +394,7 @@ margin-right: 0px;
 .thumb-box{
  position: relative;
  
- justify-content: center;
+
  
 }
 .thumb{
@@ -886,7 +886,7 @@ width: 100%;
 height: 100%;
 opacity: 0;
 transform: translateY(100%);
-transition-property: all;
+transition-property: transform , opacity ;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 pointer-events: none;
