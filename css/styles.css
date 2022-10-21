@@ -388,34 +388,40 @@ margin-right: 0px;
 }
 .img{
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+  
 }
 .thumb-box{
  position: relative;
- bottom:0;
+ 
+ justify-content: center;
  
 }
 .thumb{
+ display: flex;
+ justify-content: center;
+ text-align: center;
  position:absolute;
- width: 370px;
+ bottom: 0;
+ width: 100%;
  height: 70px;
- background: rgba(47, 48, 58, 0.8);
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
+ background-color: rgba(47, 48, 58, 0.8);
+ 
  
 }
 .thumb-text{
-    display: flex;
-    justify-content: center;
+  
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    padding: 27px 0;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: center;
     color: var(--background-color);
+   
 }
 
 .team {
